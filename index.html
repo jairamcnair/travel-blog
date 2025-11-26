@@ -14,8 +14,16 @@
 <body>
     <com-header></com-header>
 
-    <div class="card-container">
-        <a class="card" id="A Guide to Destin FL"></a>
+    <div class="page">
+        <div class="card-container">
+            <a class="card" id="A Guide to Destin FL"></a>
+            <a class="card" id="A Guide to PA"></a>
+            <a class="card" id="A Guide to NY"></a>
+
+            <a class="card" id="A Guide to NOVA"></a>
+            <a class="card" id="A Guide to VA"></a>
+            <a class="card" id="A Guide to CA"></a>
+        </div>
     </div>
     
 
@@ -43,15 +51,16 @@
 
             // create image div
             const image = document.createElement("img");
-            image.src = element.id+".png";
+            image.src = "./images/"+element.id+".png";
             container.appendChild(image);
 
-
+            let str = element.id;
+            let noWhitespace = str.replace(/\s/g, '');
             // create text div
             const title = document.createElement("a");
             title.innerText = element.id;
             title.target = '_blank';
-            title.href = element.id+".html"
+            title.href = noWhitespace+".html"
             title.style.textDecoration = "none";
             title.style.color = "black";
             title.addEventListener('mouseover', () => {title.style.textDecoration = "underline";});
