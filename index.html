@@ -8,10 +8,62 @@
 
     <script src="./com-header.js"></script>
     <script src="./com-footer.js"></script>
+    <script src="./com-card.js"></script>
+
 </head>
 <body>
     <com-header></com-header>
+
+    <div class="card-container">
+        <a class="card" id="A Guide to Destin FL"></a>
+    </div>
+    
+
+
     <com-footer></com-footer>
+
+    
+
+
+    <script>
+        const elements = document.querySelectorAll('.card');
+        
+        //console.log(elements)
+        
+        elements.forEach(element => {
+
+            // create container div 
+            const container = document.createElement("div");
+            container.style.width = '280px'
+            container.style.display = 'flex';
+            container.style.flexDirection = 'column';
+            container.style.border ='1px solid #dadada'
+            element.appendChild(container)
+        
+
+            // create image div
+            const image = document.createElement("img");
+            image.src = element.id+".png";
+            container.appendChild(image);
+
+
+            // create text div
+            const title = document.createElement("a");
+            title.innerText = element.id;
+            title.target = '_blank';
+            title.href = element.id+".html"
+            title.style.textDecoration = "none";
+            title.style.color = "black";
+            title.addEventListener('mouseover', () => {title.style.textDecoration = "underline";});
+            title.addEventListener('mouseout', () => {title.style.textDecoration = "none";});
+            title.style.paddingTop = "20px"; title.style.paddingBottom = "20px"; title.style.paddingLeft = "10px"
+            container.appendChild(title);
+
+
+        });
+    </script>
     
 </body>
+
+
 </html>

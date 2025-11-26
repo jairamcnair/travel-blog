@@ -1,11 +1,13 @@
-class Header extends HTMLElement {
-    constructor() {
+class Card extends HTMLElement {
+    constructor(message) {
         super();
+        this.message = message;
         const shadowRoot = this.attachShadow({ mode: 'open' }); // Encapsulate styles and markup
         const template = document.createElement('template');
 
+        console.log(message)
+
         template.innerHTML = `
-            
             <style>
                 /* Component-specific styles */
                 .header-container{width: 100%; display: flex; flex-direction: column; align-items: center; padding: 40px 0px 50px 0px; background-color: #f7f7f7ff; border-bottom: 1px solid #c2c2c2ff;}
@@ -15,14 +17,11 @@ class Header extends HTMLElement {
 
                 .nav-links-container a{color: #2e2e2eff; text-decoration: none; margin:20px;}
                 .nav-links-container a:hover{text-decoration: underline; text-decoration-color: #6b6b6bff;}
+
             </style>
 
-            <div class="header-container">
-                <div class="logo">Travel - A - Ton</div>
-                <div class="nav-links-container">
-                    <a href="./index.html" target="_blank">Blog Posts</a>
-                    <a href="./about.html" target="_blank">About</a>
-                </div>
+            <div class="card-container">
+                ${message}
             </div>
         `;
         shadowRoot.appendChild(template.content.cloneNode(true));
@@ -32,4 +31,4 @@ class Header extends HTMLElement {
     // and custom methods here.
     
 }
-customElements.define('com-header', Header);
+customElements.define('com-card', Card);
