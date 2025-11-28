@@ -18,7 +18,7 @@ class Header extends HTMLElement {
             </style>
 
             <div class="header-container">
-                <div class="logo">Travel - A - Ton</div>
+                <div class="logo">A - Trip - Planned</div>
                 <div class="nav-links-container">
                     <a href="./index.html" target="_blank">Blog Posts</a>
                     <a href="./about.html" target="_blank">About</a>
