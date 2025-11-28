@@ -41,9 +41,12 @@
 .post-updated{font-size: 12px; margin-top: 30px;}
 .post-author{font-size: 12px; margin-bottom: 60px;}
 
+.btn {width: 250px; margin: 60px 0px 0px 0px; border: none; border-radius: 5px; height: 50px; background-color: black; color: white; font-size: 17px; font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal; font-weight: bold;}
+.btn:hover{cursor: pointer;}
+
 h1{
     font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 50px; font-weight: bold;
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px 0px 0px; text-decoration: underline;
 }
 h2{
     font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 30px; font-weight: bold;
@@ -51,9 +54,39 @@ h2{
 }
 
 p{margin: 40px 0px 0px 0px; line-height: 30px;}
-h1, p{width: 60%;}
-@media(max-width: 1000px){h1, p{width: 70%;}}
-@media(max-width: 800px){h1, p{width: 90%;}}
+h1, h3, p, ul{width: 60%;}
+@media(max-width: 1000px){h1, h3, p, ul{width: 70%;}}
+@media(max-width: 800px){h1, h3, p, ul{width: 90%;}}
+
+li{list-style: none; width: 100%;}
+
+.itinerary-item{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+}
+
+@media(max-width: 1000px){
+    .itinerary-item{flex-direction: column; width: 100%;}
+    .time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%;}
+}
+
+
+.time, .activity-div, .distance, .cost{padding: 10px;}
+.time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%;}
+.time{margin: 0px 0px 10px 0px; font-weight: bold;}
+
+.activity-div{margin: 0px 0px 10px 0px;}
+.activity{margin: 0px 0px 10px 0px;}
+.address{margin: 0px 0px 10px 0px;}
+.phone{margin: 0px 0px 10px 0px;}
+.website{margin: 0px 0px 10px 0px;}
+
+.distance{margin: 0px 0px 10px 0px;}
+.cost{margin: 0px 0px 10px 0px;}
+
+
+
 
 .page{
     display: flex;
