@@ -66,30 +66,27 @@ li{list-style: none; width: 100%;}
 
 .itinerary-item{
     width: 100%;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-top: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
     display: flex;
-    padding: 30px 0px 30px 0px;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-around;
+    font-size: 14px;
 }
+
+
+.time, .activity-div, .distance, .cost{width: 15%; padding: 5px;}
+.time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%; margin: 0px 0px 10px 0px;}
+.time{font-weight: bold; width: 300px;}
+.activity-div{width: 1000px;}
+.distance {width: 300px;}
+.cost{width: 100px;}
+
 
 @media(max-width: 1000px){
     .itinerary-item{flex-direction: column; width: 100%;}
     .time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%;}
 }
-
-
-.time, .activity-div, .distance, .cost{padding: 10px;}
-.time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%;}
-.time{margin: 0px 0px 10px 0px; font-weight: bold;}
-
-.activity-div{margin: 0px 0px 10px 0px;}
-.activity{margin: 0px 0px 10px 0px;}
-.address{margin: 0px 0px 10px 0px;}
-.phone{margin: 0px 0px 10px 0px;}
-.website{margin: 0px 0px 10px 0px;}
-
-.distance{margin: 0px 0px 10px 0px;}
-.cost{margin: 0px 0px 10px 0px;}
 
 
 
