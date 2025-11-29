@@ -22,10 +22,17 @@
 
         <p>
             This blog post contains a 'Destination Overview' with the destination's background, activities, lodging options, transportation options, food recommendations and tips;
-            followed by a 'Detailed Itinerary' with a summary and daily schedule.
+            followed by a 'Detailed Itinerary' with an overview and daily schedule.
         </p>
 
-        <h1>Destination Overview</h1>
+        <div>
+            <button class="btn jumpToItinerary">Jump Down to Itinerary</button>
+        </div>
+
+
+
+        
+        <h1 id="overview">Destination Overview</h1>
 
         <p>Here is some basic background about the destination, exciting activities, lodging options, transportation options, food recommendations, and tips.</p>
     
@@ -59,11 +66,12 @@
 
 
 
-        <h1>Detailed Itinerary</h1>
+        <h1 id="itinerary">Detailed Itinerary</h1>
 
         <button class="btn">Print this Itinerary ($0.25)</button>
+        <button class="btn jumpToOverview">Jump Up to Detailed Overview</button>
 
-        <h2>Itinerary Overview</h2>
+        <h2>Overview</h2>
         <p><b>Destination:</b></p>
         <p><b>This itinerary includes the following activities:</b></p>
         <ul>
@@ -92,14 +100,10 @@
                 </div>
             </li>
         </ul>
-
-
-
-
-
-
     </div>
     <com-footer></com-footer>
-    
+
+    <script src="./script.js"></script>
+
 </body>
 </html>
