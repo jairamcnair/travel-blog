@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title class="post-title"></title>
     <link href="style.css" rel="stylesheet"/>
     <script src="./com-header.js"></script>
     <script src="./com-footer.js"></script>
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon"> 
 
 </head>
 <body>
+    
+
 
     <com-header></com-header>
+
     <div class="post">
+        <div class="post-title"></div>
         <div class="post-img-div">
             <img class="post-img" src="./images/img.png"/>
         </div>
-        <div class="post-title"> </div>
         <div class="post-updated">Last Updated: </div>
         <div class="post-author">Author: Jay B.</div>
 
@@ -31,10 +35,10 @@
 
 
 
-        
+
         <h1 id="overview">Destination Overview</h1>
 
-        <p>Here is some basic background about the destination, exciting activities, lodging options, transportation options, food recommendations, and tips.</p>
+        <p>Here is some background knowledge about the destination, along with exciting activities, lodging options, transportation options, food recommendations, and tips for this specific destination.</p>
     
         <h2>Background</h2>
         <!--Destination is a…founded in…Major historical events?-->
@@ -68,7 +72,7 @@
 
         <h1 id="itinerary">Detailed Itinerary</h1>
 
-        <button class="btn">Print this Itinerary ($0.25)</button>
+        <button class="btn">Print this Itinerary ($1.00)</button>
         <button class="btn jumpToOverview">Jump Up to Detailed Overview</button>
 
         <h2>Overview</h2>
@@ -104,6 +108,13 @@
     <com-footer></com-footer>
 
     <script src="./script.js"></script>
+    <script>
+        const title = document.querySelectorAll('.post-title');
+        title.forEach(element => {
+            console.log(element)
+            element.innerHTML = 'The Title You Want';
+        });
+    </script>
 
 </body>
 </html>
