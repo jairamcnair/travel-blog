@@ -64,6 +64,18 @@ h1, h3, p, ul{width: 60%;}
 
 li{list-style: none; width: 100%;}
 
+.bold{font-weight: bold; color: #908f8f;}
+
+.activities-div{
+    width: 100%;
+    margin-top: 50px;
+}
+.excursion-ad, .whatItIs-ad, .times-ad, .website-ad, .phone-ad{
+
+}
+.address-ad, .parking-ad, .hours-ad, .tips-ad{margin-top: 20px;}
+.excursion-ad{font-weight: bold;}
+
 .itinerary-item{
     width: 100%;
     border-top: 1px solid #9f9f9f;
@@ -105,3 +117,5 @@ li{list-style: none; width: 100%;}
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+
+
