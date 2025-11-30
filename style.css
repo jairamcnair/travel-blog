@@ -37,6 +37,7 @@
 @media(max-width: 600px){.post-img-div{width: 280px;}}
 
 .post-title{font-size: 40px;font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal; font-weight: bold;}
+
 @media(max-width: 600px){.post-title{font-size: 20px;}}
 .post-updated{font-size: 12px; margin-top: 30px;}
 .post-author{font-size: 12px; margin-bottom: 60px;}
@@ -66,14 +67,40 @@ li{list-style: none; width: 100%;}
 
 .bold{font-weight: bold; color: #908f8f;}
 
+
+
+
+
+
+
+.black-bold{font-weight: bold;}
+.gray-bold{font-weight: bold; color: #908f8f;}
+.post-div{width: 60%;}
+
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+.mt-60{margin-top: 60px;}
+
+
+
+
+
+
+
+
 .activities-div{
     width: 100%;
     margin-top: 50px;
 }
-.excursion-ad, .whatItIs-ad, .times-ad, .website-ad, .phone-ad{
 
+
+.inner-img-div{width: 100%; display: flex; justify-content: center; border: 1px solid;}
+.inner-post-img{width: 60%; display: block;}
+.excursion-ad, .whatItIs-ad, .times-ad, .website-ad, .phone-ad{
+    width: 60%;
 }
 .whatItIs-ad, .contact-ad, .parking-ad, .hours-ad, .parking-ad, .times-ad, .tips-ad, .costs-ad{margin-top: 20px;}
+
 .excursion-ad{font-weight: bold;}
 
 .itinerary-item{
@@ -88,7 +115,7 @@ li{list-style: none; width: 100%;}
 
 
 .time, .activity-div, .distance, .cost{width: 15%; padding: 5px;}
-.time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 100%; margin: 0px 0px 10px 0px;}
+.time, .activity-div, .activity, .address, .phone, .website, .distance, .cost{width: 60%; margin: 0px 0px 10px 0px;}
 .time{font-weight: bold; width: 300px;}
 .activity-div{width: 1000px;}
 .distance {width: 300px;}
