@@ -71,6 +71,15 @@ li{list-style: none; width: 100%;}
 .jumpToTransportation{text-decoration: underline; color: red;}
 .jumpToTransportation:hover{cursor: pointer;}
 
+.list-p{
+    margin:0;
+    font-size: 14px;
+}
+
+.money-spent{
+    background-color: yellow;
+}
+
 
 
 
