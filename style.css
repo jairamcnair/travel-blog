@@ -79,6 +79,10 @@ li{list-style: none; width: 100%;}
 .money-spent{
     background-color: yellow;
 }
+.book-it{
+    background-color: red; color: white;
+    margin-top: 10px;
+}
 
 
 
