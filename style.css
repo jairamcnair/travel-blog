@@ -151,14 +151,19 @@ li{list-style: none; width: 100%;}
     justify-content: center;
     width: 100%;
     padding: 120px 0px 120px 0px;
-
 }
 
 .card-container{
     display: grid; 
     gap: 100px;
     grid-template-columns: 1fr 1fr 1fr;
-
+    border: 1px solid;
 }
+
+@media(max-width: 1200px){
+    .card-container{display: flex; flex-direction:column;}
+}
+
+
 
 
