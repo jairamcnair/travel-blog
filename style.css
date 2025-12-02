@@ -157,7 +157,6 @@ li{list-style: none; width: 100%;}
     display: grid; 
     gap: 100px;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid;
 }
 
 @media(max-width: 1200px){
