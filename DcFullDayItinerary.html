@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="post-title"></title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="./com-header.js"></script>
+    <script src="./com-footer.js"></script>
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon"> 
+
+</head>
+<body>
+    
+
+
+    <com-header></com-header>
+
+    <div class="post">
+        <div class="post-title"></div>
+        <div class="post-img-div">
+            <img class="post-img" src="./images/img.png"/>
+        </div>
+        <div class="post-updated">Last Updated: </div>
+        <div class="post-author">Author: Jay B.</div>
+
+        <p>
+            It took 12 hours to plan out the details of this itinerary, so that’s how much  time you are saving yourself if you decide to read this itinerary and follow it.
+        </p>
+        <p>
+            This itinerary is intended to be executed Friday, Saturday, and Sunday - with Saturday being the full-day in D.C.
+        </p>
+        <p>
+            Friday: Drive to NOVA + visit Old Town Alexandria
+        </p>
+        <p>
+            Saturday: Full-day in D.C.
+        </p>
+        <p>
+            Sunday: Drive home, potentially visit Mt. Vernon (if you are traveling south back home)
+        </p>
+
+        <p>
+            Time Frame: 5:30 AM - 11:20 PM
+        </p>
+
+        <div>
+            <button class="btn jumpToItinerary">Jump Down to Itinerary</button>
+        </div>
+
+        
+
+
+
+
+
+
+
+        <h1 id="itinerary">Detailed Itinerary</h1>
+
+        <button class="btn">Print this Itinerary ($1.00)</button>
+        <button class="btn jumpToOverview">Jump Up to Detailed Overview</button>
+
+        <h2>Schedule</h2>
+        <h3>Day 1 (Friday): </h3>
+        <ul>
+            <li>
+                <div class="itinerary-item">
+                    <div class="time">3:30 PM</div>
+                    <div class="activity-div">
+                        <div class="activity">Arrive in Old Town Alexandria</div>
+                        <div class="address">121 N Fairfax St, Alexandria, VA 22314</div>
+                        <div class="address">Note: The address given is for Carlyle House Historic Park, which is in Old Town. Drive there and find parking.</div>
+                        <div class="phone"></div>
+                        <a class="website" target="_blank" href="https://visitalexandria.com/old-town/">https://visitalexandria.com/old-town/</a>                        
+                    </div>
+                    <div class="distance"></div>
+                    <div class="cost"><span class="money-spent">$50</span> budgeted in for gas</div>
+                </div>
+            </li>
+            <li>
+                <div class="itinerary-item">
+                    <div class="time">3:30 PM - 4:00 PM</div>
+                    <div class="activity-div">
+                        <div class="activity">Find parking</div>
+                        <div class="address"></div>
+                        <div class="address">Note: It hopefully won't take 30 min to find parking, but I hate feeling rushed, so there is plenty of time. You will have to pay to park. If it isn't a special event, parking should be plentiful. If it's a special event, I'd look into reserving a spot (I haven't researched that much). Parking will be on the street or you can research a garage (will be more expensive). </div>
+                        <div class="phone"></div>
+                        <a class="website" target="_blank" href=""></a>                        
+                    </div>
+                    <div class="distance"></div>
+                    <div class="cost"><span class="money-spent">$15</span> budgeted in for parking</div>
+                </div>
+            </li>
+            <li>
+                <div class="itinerary-item">
+                    <div class="time">4:00 PM - 5:00 PM</div>
+                    <div class="activity-div">
+                        <div class="activity">Explore, take photos, enjoy Old Town, start thinking about where you might want to eat</div>
+                        <div class="address"></div>
+                        <div class="address"> As you will see, Old Town is a very picturesque little town with tons of photogenic areas. </div>
+                        <div class="phone"></div>
+                        <a class="website" target="_blank" href=""></a>                        
+                    </div>
+                    <div class="distance"></div>
+                    <div class="cost"><span class="money-spent">$15</span> budgeted in for parking</div>
+                </div>
+            </li>
+            <li>
+                <div class="itinerary-item">
+                    <div class="time">5:00 PM - 5:30 PM</div>
+                    <div class="activity-div">
+                        <div class="activity">Walk to dinner</div>
+                        <div class="address"></div>
+                        <div class="address"> Recommendations: Urbano (Mexican - $20-$30); Two Nineteen Restaurant (American - $20-$30); Mia's Italian Kitchen (Italian - $30-$50) </div>
+                        <div class="phone"></div>
+                        <a class="website" target="_blank" href=""></a>                        
+                    </div>
+                    <div class="distance"></div>
+                    <div class="cost"><span class="money-spent"></span></div>
+                </div>
+            </li>
+        </ul>
+
+
+
+        <h2>Overview</h2>
+        <p><b>Destination:</b></p>
+        <p><b>This itinerary includes the following activities:</b></p>
+        <ul>
+            <li></li>
+        </ul>
+        <p><b>Budget:</b></p>
+        <p><b>Travelers:</b></p>
+        <p><b>Traveling from: <!-- put distance in miles, hrs --></b></p>
+        <p><b>Week days: </b> <!-- i.e. Sunday to Thursday --></p>
+
+
+        
+    </div>
+    <com-footer></com-footer>
+
+    <script src="./script.js"></script>
+    <script>
+        const title = document.querySelectorAll('.post-title');
+        title.forEach(element => {
+            console.log(element)
+            element.innerHTML = 'D.C. - 1 Full-Day Itinerary';
+        });
+    </script>
+
+</body>
+</html>
