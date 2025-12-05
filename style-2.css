@@ -20,7 +20,8 @@ details:hover{cursor: pointer;}
 details{border: 1px solid #dadada;}
 book{color: white; font-weight: bold; background-color: red;}
 budget{background-color: yellowgreen;}
-heading, details, post-title, h1, h2, h3, h4, p{padding: 20px 15px 20px 15px;}
+heading, details, post-title, h1, h2, h3, h4{padding: 20px 15px 20px 15px;}
+p{padding: 10px 15px 10px 15px;}
 heading, details, h1, h2, h3, h4, p {width: 90%;}
 info, book, budget, a {width: 90%; margin: 10px 0px 10px 0px;}
 @media(max-width: 1000px){main{width: 70%;} }
