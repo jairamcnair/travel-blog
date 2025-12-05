@@ -8,7 +8,7 @@ class Header extends HTMLElement {
             
             <style>
                 /* Component-specific styles */
-                .header-container{width: 100%; display: flex; flex-direction: column; align-items: center; padding: 40px 0px 50px 0px; background-color: #f7f7f7ff; border-bottom: 1px solid #c2c2c2ff;}
+                .header-container{ margin-bottom: 150px; width: 100%; display: flex; flex-direction: column; align-items: center; padding: 100px 0px 80px 0px; /*background-color: #f7f7f7ff; border-bottom: 1px solid #c2c2c2ff;*/}
                 
                 .logo{font-family: "Libertinus Serif Display", system-ui; font-weight: 400; font-style: normal; font-size: 50px; margin-bottom: 20px;}
                 @media(max-width: 500px){.logo{font-size:35px;}}

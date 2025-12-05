@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
         template.innerHTML = `
             <style>
                 /* Component-specific styles */
-                .footer-container{ border-top: 1px solid #c2c2c2ff; width: 100%; display: flex; flex-direction: column; align-items: center; margin-top{150px}; padding: 40px 0px 10px 0px; background-color: #f7f7f7ff; border-bottom: 1px solid #c2c2c2ff;}
+                .footer-container{ /*border-top: 1px solid #c2c2c2ff; */width: 100%; display: flex; flex-direction: column; align-items: center; margin-top:150px; padding: 40px 0px 10px 0px; /*background-color: #f7f7f7ff; border-bottom: 1px solid #c2c2c2ff;*/}
                 
                 .logo{font-family: "Libertinus Serif Display", system-ui; font-weight: 400; font-style: normal; font-size: 30px; margin-bottom: 60px;}
                 @media(max-width: 500px){.logo{font-size:35px;}}
