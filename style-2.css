@@ -7,11 +7,16 @@ script{display: none;}
 *{ padding: 0; margin: 0; font-family: "Montserrat", sans-serif; font-optical-sizing: auto; font-style: normal; display: block;}
 body{border: 1px solid red; width: 100%; display: flex; flex-direction: column; align-items: center;}
 main{width: 50%; display: flex; flex-direction: column; align-items: center;}
-title{margin: 0px 0px 90px 0px; font-size: 50px;font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal; font-weight: bold;}
+title{text-align: center; max-width: 100%; margin: 0px 0px 20px 0px; font-size: 50px;font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal; font-weight: bold;}
+author, date{font-size: 14px;}
+date{margin: 0px 0px 50px 0px;}
 img{width: 500px; margin: 30px 0px 15px 0px;}
 img-caption{margin: 20px 0px 60px 0px; font-size:14px;text-align: center;}
+jumpToItinerary{border: 1px solid #dadada; padding: 15px; border-radius: 10px;}
+jumpToItinerary:hover{cursor: pointer;}
 h1{margin: 70px 0px 20px 0px; font-family: "Libertinus Serif Display", system-ui; font-style: normal; font-size: 40px; font-weight: bold;text-decoration: underline;}
 h2{margin: 70px 0px 10px 0px; font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 30px; font-weight: bold;}
+itinerary{margin: 70px 0px 10px 0px; font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 30px; font-weight: bold;}
 h3{margin: 70px 0px 10px 0px; font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 20px; font-weight: bold;}
 h4{margin: 50px 0px 0px 0px; font-size: 16px; font-weight: bold;}
 p{line-height: 25px; font-size: 15px; margin: 0px;}
@@ -20,9 +25,9 @@ details:hover{cursor: pointer;}
 details{border: 1px solid #dadada;}
 book{color: white; font-weight: bold; background-color: red;}
 budget{background-color: yellowgreen;}
-heading, details, post-title, h1, h2, h3, h4{padding: 20px 15px 20px 15px;}
+heading, details, post-title, h1, h2, itinerary, h3, h4{padding: 20px 15px 20px 15px;}
 p{padding: 10px 15px 10px 15px;}
-heading, details, h1, h2, h3, h4, p {width: 90%;}
+heading, details, h1, h2, itinerary, h3, h4, p {width: 90%;}
 info, book, budget, a {width: 90%; margin: 10px 0px 10px 0px;}
 @media(max-width: 1000px){main{width: 70%;} }
 @media(max-width: 800px){main{width: 85%;} img{width: 500px;}}

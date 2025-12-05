@@ -20,7 +20,7 @@ class Header extends HTMLElement {
             <div class="header-container">
                 <div class="logo">A - Trip - Planned</div>
                 <div class="nav-links-container">
-                    <a href="./index.html" target="_blank">Blog Posts</a>
+                    <a href="./aaa-index.html" target="_blank">Blog Posts</a>
                     <a href="./about.html" target="_blank">About</a>
                 </div>
             </div>
