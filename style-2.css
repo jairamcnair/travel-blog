@@ -12,18 +12,19 @@ img-caption{margin: 20px 0px 60px 0px; font-size:14px;text-align: center;}
 h1{margin: 70px 0px 20px 0px; font-family: "Libertinus Serif Display", system-ui; font-style: normal; font-size: 40px; font-weight: bold;text-decoration: underline;}
 h2{margin: 70px 0px 20px 0px; font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 30px; font-weight: bold;}
 h3{margin: 70px 0px 20px 0px; font-family: "Libertinus Serif Display", system-ui;font-style: normal;font-size: 20px; font-weight: bold;}
-p{line-height: 20px; font-size: 15px;}
+h4{margin: 70px 0px 0px 0px; font-size: 16px; font-weight: bold;}
+p{line-height: 25px; font-size: 15px; margin: 0px;}
 heading{font-weight: bold; display: flex; justify-content: space-between; align-items: center; border: 1px solid #dadada; }
 heading:hover{cursor: pointer;}
 details{border: 1px solid #dadada; margin-bottom: 30px;}
 book{color: white; font-weight: bold; background-color: red;}
 budget{background-color: yellowgreen;}
-heading, details, post-title, h1, h2, h3, p{padding: 20px 15px 20px 15px;}
-heading, details, h1, h2, h3, p {width: 50%;}
+heading, details, post-title, h1, h2, h3, h4, p{padding: 20px 15px 20px 15px;}
+heading, details, h1, h2, h3, h4, p {width: 50%;}
 info, book, budget, a {width: 90%; margin: 10px 0px 10px 0px;}
-@media(max-width: 1000px){heading, details, h1, h2, h3, p{width: 70%;}}
-@media(max-width: 800px){heading, details, h1, h2, h3, p{width: 85%;}}
-@media(max-width: 600px){heading, details, h1, h2, h3, p{width: 75%;} details{font-size: 15px;} img{width: 280px;}}
+@media(max-width: 1000px){heading, details, h1, h2, h3, h4, p{width: 70%;}}
+@media(max-width: 800px){heading, details, h1, h2, h3, h4, p{width: 85%;}}
+@media(max-width: 600px){heading, details, h1, h2, h3, h4, p{width: 75%;} details{font-size: 15px;} img{width: 280px;}}
 
 
 
