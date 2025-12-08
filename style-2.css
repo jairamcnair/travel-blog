@@ -2,7 +2,8 @@
 .montserrat {font-family: "Montserrat", sans-serif;font-optical-sizing: auto;font-weight: 400;font-style: normal;}
 .libertinus-serif-display-regular {font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal;font-size: 100px;}
 
-.no-margin-top{margin-top:0;margin-bottom: 40px;}
+.no-margin-top{margin-top:0;margin-bottom: 40px;padding-top:0px;}
+
 script{display: none;}
 *{ padding: 0; margin: 0; font-family: "Montserrat", sans-serif; font-optical-sizing: auto; font-style: normal; display: block;}
 b, i{display: inline;}
@@ -11,6 +12,7 @@ main{width: 50%; display: flex; flex-direction: column; align-items: center;}
 title{text-align: center; max-width: 100%; margin: 0px 0px 20px 0px; font-size: 50px;font-family: "Libertinus Serif Display", system-ui;font-weight: 400;font-style: normal; font-weight: bold;}
 author, date{font-size: 14px;}
 date{margin: 0px 0px 50px 0px;}
+.big-img{width: auto;}
 img{width: 500px; margin: 30px 0px 15px 0px;}
 img-caption{margin: 20px 0px 60px 0px; font-size:14px;text-align: center;}
 jumpToItinerary, jumpToIntro{border: 1px solid #dadada; padding: 15px; border-radius: 10px;}
